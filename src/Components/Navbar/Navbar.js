@@ -13,15 +13,15 @@ const Navbar = () => {
        Home
      </CustomLink>
      <CustomLink
-                 to='/blog'
+                 to='/blogs'
      >
-       Blog
+       Blogs
      </CustomLink>
      <CustomLink
       
-      to='/checkout'
+      to='/inventory'
     >
-      Checkout
+      Inventory
     </CustomLink>
 
      <CustomLink
