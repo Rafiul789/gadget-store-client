@@ -1,6 +1,34 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import CustomLink from '../CustomLink/CustomLink';
+import {onAuthStateChanged,signOut} from 'firebase/auth';
+import {auth} from '../Firebase/firebase.init';
+
 const Navbar = () => {
+
+  const [user,setUser] =useState({})
+  useEffect(() => {
+    const subs= onAuthStateChanged(auth, (user) => {
+       if (user) {
+        
+        setUser(user)
+         
+       } else {
+        setUser({})
+       } 
+     });return ()=>   subs;
+    },[])
+
+
+     const handleSignout = () => {
+
+      signOut(auth).then(() => {
+       
+      }).catch((error) => {
+        // An error happened.
+      });
+    }
+
+
     return (
         <div>
         <nav  className="md:flex bg-gray-800   sticky   gap-2 justify-center md:justify-between  py-5 px-5">
@@ -26,9 +54,9 @@ const Navbar = () => {
 
      <CustomLink
       
-       to='/about'
+       to='/contact'
      >
-       About 
+       Contact 
      </CustomLink>
      <CustomLink
       
@@ -37,12 +65,12 @@ const Navbar = () => {
       Sign Up
     </CustomLink>
 
-    <CustomLink
-      
-      to='/login'
-    >
-      Login
-    </CustomLink>
+    {user?.uid? (<button onClick={handleSignout}   >Log Out</button> ):(<CustomLink
+           
+           to='/login'
+         >
+           Login
+         </CustomLink>)}
        
    </div>
  </nav>

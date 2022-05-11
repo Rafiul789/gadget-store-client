@@ -124,29 +124,29 @@ const handleSignup = (event) => {
             <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
                 <div className="bg-white px-6 py-8 rounded shadow-md text-black w-full">
                     <h1 className="mb-8 text-3xl text-center font-extrabold  ">Sign up</h1>
-                <form onSubmit={handleSignup}  >    <input 
+                <form onSubmit={handleSignup}  > <div> <input 
                         type="text"
                         className="block border border-grey-light w-full p-3 rounded mb-4"
                         name="fullname"
-                        placeholder="Full Name" />
-
-                    <input onBlur={(event)=>handleEmail(event.target.value)}
+                        placeholder="Full Name" /> </div>  
+<div> <input onBlur={(event)=>handleEmail(event.target.value)}
                         type="text" id="email"
                         className="block border border-grey-light w-full p-3 rounded mb-4"
                         name="email"
                         placeholder="Email" />
-                        {email?.error&&<p className="text-red-500" >{email.error}</p>}
-
-                    <input  onBlur={(event)=>handlePassword(event.target.value)}
+                        {email?.error&&<p className="text-red-500" >{email.error}</p>}  </div>
+                    
+                        <div>  <input  onBlur={(event)=>handlePassword(event.target.value)}
                         type="password" id="password"
                         className="block border border-grey-light w-full p-3 rounded mb-4"
                         name="password"
-                        placeholder="Password" />  {password.error && <p className="text-red-600" >{password.error}</p>}
-                    <input   onBlur={(event)=>handlePasswordConfirmation(event.target.value)}
+                        placeholder="Password" />  {password.error && <p className="text-red-600" >{password.error}</p>}  </div>
+                   <div> <input   onBlur={(event)=>handlePasswordConfirmation(event.target.value)}
                         type="password"
                         className="block border border-grey-light w-full p-3 rounded mb-4"
                         name="confirm_password"
-                        placeholder="Confirm Password" /> {passwordConfirmation.error && <p className="text-red-600" >{passwordConfirmation.error}</p>}
+                        placeholder="Confirm Password" /> {passwordConfirmation.error && <p className="text-red-600" >{passwordConfirmation.error}</p>}   </div>
+                    
 
                     <button
                         type="submit"
