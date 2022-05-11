@@ -1,6 +1,36 @@
 import React from 'react';
-
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import {auth} from '../Firebase/firebase.init';
+const provider = new GoogleAuthProvider();
 const Signup = () => {
+
+const googleAuth=()=>{
+    signInWithPopup(auth, provider)
+    .then((result) => {
+      // This gives you a Google Access Token. You can use it to access the Google API.
+      const credential = GoogleAuthProvider.credentialFromResult(result);
+      const token = credential.accessToken;
+      // The signed-in user info.
+      const user = result.user;
+      // ...
+    }).catch((error) => {
+      // Handle Errors here.
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      // The email of the user's account used.
+      const email = error.email;
+      // The AuthCredential type that was used.
+      const credential = GoogleAuthProvider.credentialFromError(error);
+      // ...
+    });
+
+
+}
+   
+
+
+
+
     return (
         <div>
            
@@ -46,7 +76,7 @@ const Signup = () => {
                         </p>
                     </div>
                     <div className="mt-2 grid ">
-                        <button className="group h-12 px-6 border-2 border-gray-300 rounded-full transition duration-300 
+                        <button onClick={googleAuth} className="group h-12 px-6 border-2 border-gray-300 rounded-full transition duration-300 
  hover:border-blue-400 focus:bg-blue-50 active:bg-blue-100">
                             <div className="relative flex items-center space-x-4 justify-center">
                                 <img src="https://tailus.io/sources/blocks/social/preview/images/google.svg" className="absolute left-0 w-5" alt="google logo"/>
