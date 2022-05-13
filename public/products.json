@@ -1,0 +1,198 @@
+[
+    {
+      "id": 1,
+     
+      "name": "Iphone 13 Pro Max",
+      "seller": "Iphone",
+      "price": 135000,
+      "descripton":"Display 6.1Inch 120hz Refresh Rate Processor:Hexacore Camera: 12+12 megapixel Operating System:IOS 15    ",
+    "quantity":6,
+      "ratings": 4.2,
+     
+      "img": "https://i.ibb.co/2vMrdJj/iphone13.png"
+     
+    }, 
+    {
+      "id": 2,
+     
+      "name": "Sony Wireless Headphone",
+      "seller": "Sony",
+      "description":"HD Noise Cancelling Processor QN1 lets you hear without distractions High quality wireless audio with BLUETOOTH  devices and LDAC technology",
+     
+      "quantity":8,
+
+      "price": 5000,
+    
+      "ratings": 4.9,
+     
+      "img": "https://i.ibb.co/kcXyz87/sony-Headphone.jpg"
+     
+    }, 
+    {
+      "id": 3,
+     
+      "name": "Oculus Quest 2",
+      "seller": "Meta",
+      "description":"The Quest 2 is an upgrade in every way, with a lighter design, a sharper display, and a faster processor, all at a more affordable price than the original",
+     
+      "quantity":9,
+
+
+      "price": 27500,
+    
+      "ratings": 4.2,
+     
+      "img": "https://i.ibb.co/ZGkkzBV/G03.jpg"
+     
+    }, 
+    {
+      "id": 4,
+     
+      "name": "Macbook pro",
+      "seller": "Apple",
+      "description":"Apple MacBook Pro is a macOS laptop with a 13.30-inch display that has a resolution of 2560x1600 pixels. It is powered by a Core i5 processor and it comes with 12GB of RAM. The Apple MacBook Pro packs 512GB of SSD storage",
+     
+      "quantity":5,
+
+
+      "price": 265000,
+    
+      "ratings": 4.5,
+     
+      "img": "https://i.ibb.co/VjsC8F3/mackbook.png"
+     
+    }, 
+    {
+      "id": 5,
+     
+      "name": "Airpods Pro",
+      "seller": "Apple",
+      "description":"The AirPods Pro are the more premium version of Apple's standard AirPods. They feature two audio modes for filtering outside sounds, changeable ear tips, and the H1 processor. Gyroscopes in the earpieces enable users to move their head 'around' within an audio space using a feature called Spatial Audio",
+     
+      "quantity":5,
+
+      "price": 22000,
+    
+      "ratings": 4.7,
+     
+      "img": "https://i.ibb.co/6PrpwMw/airpods.png"
+     
+    }, 
+    {
+      "id": 6,
+     
+      "name": "Samsung S22 Ultra",
+      "seller": "Samsung",
+      "description":"Samsung Galaxy S22 Ultra 5G ; Display, Type ; Size, 6.8 inches, 114.7 cm2 (~90.2% screen-to-body ratio) ; Resolution, 1440 x 3088 pixels (~500 ppi density)",
+     
+      "quantity":7,
+
+
+      "price": 143000,
+    
+      "ratings": 4.4,
+     
+      "img": "https://i.ibb.co/ZzjQVDD/samsung-galaxy-s22-ultra.png"
+     
+    }, 
+    {
+      "id": 7,
+     
+      "name": "Sony Alpha A7 3",
+      "seller": "Sony",
+      "description":"Distinguished by its updated sensor design, the Sony a7 III is a well-rounded camera suitable for both photo and video applications in a variety of working situations. Refined for improved speed and low-light performance, the full-frame 24.2MP Exmor R BSI CMOS sensor and BIONZ X image processor pair to realize an impressive 10 fps continuous",
+     
+      "quantity":4,
+
+
+      "price": 175000,
+    
+      "ratings": 4.6,
+     
+      "img": "https://i.ibb.co/G93Bp9C/sonyalpha.png"
+     
+    }, 
+    {
+      "id": 8,
+     
+      "name": "Xiaomi Haylou RS4",
+      "seller": "Xiaomi",
+      "description":"he Xiaomi Haylou RS4 Plus comes with a 1.78-inch Large Retina AMOLED display with a 60Hz refresh rate. It is equipped with a curved 2.5D glass and created... ",
+     
+      "quantity":7,
+
+      "price": 4150,
+    
+      "ratings": 4.8,
+     
+      "img": "https://i.ibb.co/x5RRc48/Haylou-rs4-2.png"
+     
+    }, 
+    {
+      "id": 9,
+     
+      "name": "Xiaomi MI selfie stick",
+      "seller": "Xiaomi ",
+      "description":"Xiaomi Mi Selfie Stick Tripod is a universal monopod. Now it can be used not only as a device for Selfie, but also as a tripod. Thanks to the support on three legs it will stand stably on the surface, and thanks to the Bluetooth-remote control you can take pictures from a distance ",
+     
+      "quantity":7,
+
+
+      "price": 1250,
+    
+      "ratings": 4.5,
+     
+      "img":  "https://i.ibb.co/W6h1Bcg/xiaomi.png"
+     
+    }, 
+    {
+      "id": 10,
+     
+      "name": "Logitech Keyboard",
+      "seller": "Logitech",
+      "description":" Reliable wireless up to 10m contact,space-saving layout,24 month keyboard battery life ,responsive cursor control  ",
+     
+      "quantity":7,
+
+
+      "price": 1500,
+    
+      "ratings": 4.1,
+     
+      "img": "https://i.ibb.co/Cb7HgxF/download.jpg"
+     
+    }, 
+    {
+      "id": 11,
+     
+      "name": "Sony Playstaion 4",
+      "seller": "Sony",
+      "description":" The PlayStation 4 uses an Accelerated Processing Unit (APU) developed by AMD in cooperation with Sony. It combines a central processing unit (CPU) and graphics processing unit (GPU), as well as other components such as a memory controller and video decoder  ",
+     
+      "quantity":3,
+
+      "price": 25000,
+    
+      "ratings": 4.5,
+     
+      "img": "https://i.ibb.co/WzfpZv7/sony-playstation.jpg"
+     
+    }, 
+    {
+      "id": 12,
+     
+      "name": "Samsung Gear VR",
+      "seller": "Samsung",
+      "price": 7000,
+      "description":" The PlayStation 4 uses an Accelerated Processing Unit (APU) developed by AMD in cooperation with Sony. It combines a central processing unit (CPU) and graphics processing unit (GPU), as well as other components such as a memory controller and video decoder  ",
+     
+      "quantity":3,
+    
+      "ratings": 4.2,
+     
+      "img": "https://i.ibb.co/zGGJx2C/samsunggrvr.png"
+     
+    }
+
+
+  ]
