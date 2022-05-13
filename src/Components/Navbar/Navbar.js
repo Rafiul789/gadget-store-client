@@ -71,6 +71,23 @@ const Navbar = () => {
          >
            Login
          </CustomLink>)}
+        
+        
+    {user?.uid?( <CustomLink
+      
+      to='/additem'
+    >
+      Add Item
+    </CustomLink>):("" )}    
+    
+   {user?.uid?( <CustomLink
+      
+      to='/manageitem'
+    >
+      Manage Item
+    </CustomLink>):("")} 
+   
+
        
    </div>
  </nav>
