@@ -31,7 +31,7 @@ const Navbar = () => {
 
     return (
         <div>
-        <nav  className="md:flex bg-gray-800   sticky   gap-2 justify-center md:justify-between  py-5 px-5">
+        <nav  className="md:flex bg-gray-900   sticky   gap-2 justify-center md:justify-between  py-5 px-5">
    <div className='text-4xl font-bold text-white'>
      <h1>Gadget Store</h1>
    </div>
