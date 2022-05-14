@@ -1,8 +1,8 @@
 ## Site Name :Gadget Store
 
-### Live Link: 
+### Live Link: `https://gadget-store-1aba1.web.app/`
 
-
+### Server Link: `https://nameless-fortress-97530.herokuapp.com/`
 
 ## `Top Features`
 
